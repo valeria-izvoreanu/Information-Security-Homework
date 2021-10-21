@@ -1,6 +1,6 @@
 # Tema1-SI
 1.	Tema a fost scrisa in limbaj Python cu libraria criptografica cryptography
-2.	Symmetric encryption — Cryptography 36.0.0.dev1 documentation
+2.	[Symmetric encryption — Cryptography 36.0.0.dev1 documentation](https://cryptography.io/en/latest/hazmat/primitives/symmetric-encryption/?highlight=aes)
 3.	Comunicarea este de tip Server-Client cu socket, unde Managerul de chei este serverul si nodurile A si B sunt clientii. 
 4.	Cheile au fost generate cu libraria os. Cheia comuna KPrim si vectorul de initializare au fost date ca parametri globali fiecarui nod.
 
