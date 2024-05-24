@@ -3,7 +3,7 @@
 2.	[Symmetric encryption — Cryptography 36.0.0.dev1 documentation](https://cryptography.io/en/latest/hazmat/primitives/symmetric-encryption/?highlight=aes)
 3.	The communication is of the Server-Client type with sockets, where the Key Manager is the server and nodes A and B are the clients.
 4.	The keys were generated with the os library. The common key KPrim and the initialization vector were given as global parameters to each node.
-5.	
+   
 ## Communication
 Messages are sent with the mode of operation (explicitly ECB or OFB) from A to the KM and from the KM to B, after which the encrypted key is sent to both nodes until node B says that communication can begin. If the communication starts, node A will encrypt the content of the text, send it to KM, and KM will forward it to node B, which will decrypt it and display the decrypted message.
 
