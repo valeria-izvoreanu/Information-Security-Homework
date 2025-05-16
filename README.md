@@ -1,4 +1,4 @@
-# Tema1-SI
+# Subject
 1.	The theme was written in Python using the cryptographic library cryptography.
 2.	[Symmetric encryption — Cryptography 36.0.0.dev1 documentation](https://cryptography.io/en/latest/hazmat/primitives/symmetric-encryption/?highlight=aes)
 3.	The communication is of the Server-Client type with sockets, where the Key Manager is the server and nodes A and B are the clients.
